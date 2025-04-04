@@ -1,0 +1,383 @@
+body {
+	background-color: #2A2A2A;
+	margin-left: -10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+	nav a {
+		display: none;
+	}
+	nav button {
+		display: inline;
+	}
+	.nav-elements {
+		display: none;
+		font-size: 0px;
+	}
+	header img {
+		padding-left: 27vw;
+	}
+	nav button {
+		margin-right: 5px;
+		margin-top: 4px;
+	}
+
+	.banner-container {
+		position: absolute;
+	}
+
+	.banner-container img {
+		width: 50vw;
+	}
+ 
+	.banner-text {
+		position:  relative;
+		max-width: 400px;
+		margin-top: 180px;
+	}
+
+	.banner-text p {
+		min-width: 430px;
+	}
+
+	.banner-text h1 {
+		align-content: center;
+		min-width: 350px;
+		padding-top: 28px;
+		margin-bottom: -5px;
+	}
+
+	.banner-buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 10px;
+	}
+
+	.banner-text button {
+		padding: 5px 70px;
+	}
+
+	.pushpadding {
+		margin-top: 230px;
+		padding-top: 220px;
+	}
+
+	.pushpadding h2 {
+		text-align: center;
+		padding-right: 40px;
+	}
+
+	.whatweoffer-container {
+		display: flex;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column: span 3;
+		gap: 10px;
+	}
+/*	^^^ Not working either :( )*/
+
+	.featured-container {
+		display: flex;
+		flex-direction: column;
+		max-width: 90vw
+	}
+/*	^^^ Not workingggg ughhh*/
+
+	.featured-perks-image {
+		width: 90vw;
+	}
+	.location-text h2 {
+		padding-top: 100px;
+		position: relative;
+	}
+	.location-text {
+		margin-right: 50px;
+		padding-right: 50px;
+	}
+/*	^^^ Not working??*/
+
+	.location-image {
+		height: 80vw;
+		width: auto;
+	}
+	.moneyimage {
+		display: none;
+	}
+	.money-text {
+		min-width: 80vw;
+		padding-top: 80px;
+		margin-left: 0px;
+	}
+	.responsivearticles {
+		padding-top: 0px;
+	}
+
+	.money-text button {
+		align-items: center;
+		margin-left: 180px;
+	}
+	.money-text h2 {
+		margin-left: 100px;
+	}
+	.articlesh2 {
+		margin-left: 150px;
+	}
+	.article-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 15px;
+/*	^^^ This doesn't work when i code it, but i can do it using Inspect element.*/
+}
+	.article-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 80vw;
+	}
+/*	^^^ This doesn't work when i code it, but i can do it using Inspect element.*/
+	.article-container button {
+		min-width: 50px;
+		width: 100px;
+	}
+	.footer-spacing a {
+		display: none;
+		color: #1e1e1e;
+	}
+/*	^^^ Not working...*/
+}
+
+.location-image {
+	height: 100%;
+}
+
+.banner-buttons {
+	gap: 5px;
+}
+
+.pushpadding {
+	margin-top: 5px;
+}
+
+
+.fontstyle {
+	font-weight: lighter;
+	font-family: sans-serif;
+	color: #F0F0F0;
+} 
+
+.navbar {
+	width: 100vw;
+	background-color: #1E1E1E;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+.navbar a {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	color: #F0F0F0;
+}
+
+header {
+	display: flex;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-evenly;
+	position: sticky;
+	top: 0;
+	margin-top: -10px;
+	z-index: 1;
+}
+
+.navbutton {
+	background-color: #7CE655;
+}
+
+.nav-elements {
+	display: flex;
+	padding: 10px 0;
+	gap: 2vw;
+}
+
+button {
+	padding: 8px 20px;
+	background-color: #D2FFC2;	
+	color: black;
+	border: none;
+	border-radius: 4px;
+	font-family: Lato;
+	font-weight: regular;
+}
+
+button:hover {
+	background-color: #7CE655;
+}
+
+.banner-container {
+	position: relative;
+	display: inline-block;
+}
+
+.banner-container img {
+	display: block;
+	width: 100vw;
+	height: auto;
+}
+
+.banner-text {
+	position: absolute;
+	top: 15%;
+	left: 6%;
+	max-width: 30vw;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Lato;
+	font-weight: 400;
+	color: #F0F0F0;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-family: Lato;
+	font-weight: 700;
+	color: #F0F0F0;
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-family: Lato;
+	font-weight: 700;
+	color: #F0F0F0;
+}
+
+p {
+	font-size: 1rem;
+	font-family: Lato;
+	font-weight: regular;
+	color: #F0F0F0;
+}
+
+ul {
+	font-size: 1rem;
+	font-family: Lato;
+	font-weight: regular;
+	color: #F0F0F0;
+	text-decoration-color: white;
+}
+
+.whitetext {
+	color: #F0F0F0;
+}
+
+.paddinggeneral {
+	position: relative;
+	left: 6%;
+}
+
+.section-general {
+	margin-bottom: 6%;
+	margin-top: 6%;
+}
+
+.whatweoffer-container {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	max-width: 89vw;
+}
+
+.offers-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.featured-perks-image {
+	width: 35vw;
+	border-radius: 6px;
+}
+
+.featured-perks-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	max-width: 30vw;
+}
+
+.featured-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 80vw;
+}
+
+.location-text {
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	padding-left: 45%;
+	align-items: center;
+	text-align: center;
+}
+
+.money-container{
+	display: flex;
+	flex-direction: row;
+	gap: 80px;
+}
+
+.money-text {
+	max-width: 40vw;
+}
+
+.moneyimage {
+	padding-top: 25px;
+	padding-left: 75px;
+}
+
+.article-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.article-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	max-width: 20vw;
+}
+
+.article-card img {
+	border-radius: 6px;
+}
+
+.article-card button {
+	max-width: 10vw;
+}
+
+.footer-spacing {
+	display: flex;
+}
+
+.footer-logo {
+	padding-top: 30px;
+}
+
+.left-navitems {
+	text-align: left;
+	font-family: sans-serif;
+}
+
